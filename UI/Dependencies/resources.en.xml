@@ -330,6 +330,7 @@
 			<Control ID="lblMiscSettings">Sonstige Einstellungen</Control>
 			<Control ID="chkAutoHideMenu">Menüleiste automatisch verbergen</Control>
 			<Control ID="chkDisplayTitleBarInfo">Zusätzliche Informationen in der Titelleiste anzeigen</Control>
+			<Control ID="mnuShowFPS">FPS anzeigen2</Control>
 
 			<Control ID="chkConfirmExitResetPower">Bestätigungsabfrage anzeigen, bevor folgende Befehle ausgeführt werden: Reset/Aus- und Wiedereinschaltung/Beenden</Control>
 			<Control ID="chkPauseOnMovieEnd">Pausiere, sobald ein Film vorbei ist</Control>
@@ -397,6 +398,7 @@
 			<Control ID="lblGameSelectionScreenSettings">Spielauswahlfenster-Einstellungen</Control>
 			<Control ID="chkGameSelectionScreenResetGame">Spiel regulär durch Einschaltung starten, statt direkt von der letzten Spielsitzung</Control>
 			<Control ID="chkDisableGameSelectionScreen">Spielauswahlfenster deaktivieren</Control>
+			<Control ID="mnuShowFPS">FPS anzeigen</Control>
 
 			<Control ID="chkDisableGameDatabase">Integrierte Spieldatenbank deaktivieren</Control>
 			<Control ID="chkDisableHighResolutionTimer">High-Resolution-Timer deaktivieren</Control>
