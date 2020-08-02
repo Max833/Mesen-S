@@ -328,7 +328,7 @@
 
 			<Control ID="lblPauseBackgroundSettings">Pause- und Hintergrundeinstellungen</Control>
 			<Control ID="lblMiscSettings">Sonstige Einstellungen</Control>
-			<Control ID="chkAutoHideMenu">Die Menüleiste automatisch verbergen</Control>
+			<Control ID="chkAutoHideMenu">Menüleiste automatisch verbergen</Control>
 			<Control ID="chkDisplayTitleBarInfo">Zusätzliche Informationen in der Titelleiste anzeigen</Control>
 
 			<Control ID="chkConfirmExitResetPower">Bestätigungsabfrage anzeigen, bevor folgende Befehle ausgeführt werden: Reset/Aus- und Wiedereinschaltung/Beenden</Control>
