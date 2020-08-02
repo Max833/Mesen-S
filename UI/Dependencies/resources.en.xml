@@ -166,7 +166,7 @@
 			<Control ID="chkAutoConfigureInput">Die Controller automatisch konfigurieren, sobald ein Spiel geladen wird</Control>
 
 			<Control ID="tpgAdvanced">Erweitert</Control>
-			<Control ID="grpDisplayInput">Controller-Symbol anzeigen von</Control>
+			<Control ID="grpDisplayInput">Controller-Symbol anzeigen von...</Control>
 			<Control ID="chkDisplayPort1">Anschluss 1</Control>
 			<Control ID="chkDisplayPort2">Anschluss 2</Control>
 			<Control ID="chkDisplayPort3">Anschluss 3</Control>
@@ -277,7 +277,7 @@
 
 			<Control ID="tpgOverclocking">Übertaktung</Control>
 			<Control ID="grpOverclocking">Übertaktung</Control>
-			<Control ID="lblOverclockHint">Slowdowns in Spielen können hierdurch reduziert oder entfernt werden, aber es können auch Probleme entstehen. Zum Übertakten den "Scanline vor NMI"-Wert auf einige hundert Zeilen (z. B. 300+) setzen. Falls das Spiel Probleme bereitet, den Wert senken oder stattdessen den "Scanline nach NMI"-Wert benutzen.</Control>
+			<Control ID="lblOverclockHint">Slowdowns in Spielen können hierdurch reduziert oder entfernt werden, aber es können auch Probleme entstehen. Zum Übertakten den "Scanlines vor NMI"-Wert auf einige hundert Zeilen (z. B. 300+) setzen. Falls das Spiel Probleme bereitet, den Wert senken oder stattdessen den "Scanlines nach NMI"-Wert benutzen.</Control>
 			<Control ID="lblClockRate">Taktfrequenz-Multiplikator:</Control>
 			<Control ID="lblClockRatePercent">% (Standard: 100%)</Control>
 
@@ -335,7 +335,7 @@
 			<Control ID="chkPauseOnMovieEnd">Pausiere, sobald ein Film vorbei ist</Control>
 			<Control ID="chkAllowBackgroundInput">Eingaben auch dann erlauben, wenn das Fenster nicht aktiv ist</Control>
 
-			<Control ID="lblPauseIn">Pausiere, wenn im:</Control>
+			<Control ID="lblPauseIn">Pausiere, wenn im...</Control>
 			<Control ID="chkPauseWhenInBackground">Hintergrund</Control>
 			<Control ID="chkPauseInMenuAndConfig">Menü- und Konfigurationsdialog</Control>
 			<Control ID="chkPauseInDebugger">Debugging-Fenster</Control>
