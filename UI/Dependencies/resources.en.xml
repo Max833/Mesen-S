@@ -121,7 +121,7 @@
 			<Control ID="chkDisableDynamicSampleRate">Dynamische Abtastrate deaktivieren</Control>
 			<Control ID="chkMuteSoundInBackground">Wenn das Fenster nicht aktiv ist, den Ton stummschalten</Control>
 			<Control ID="chkReduceSoundInBackground">Wenn das Fenster nicht aktiv ist, die Lautstärke reduzieren</Control>
-			<Control ID="chkReduceSoundInFastForward">Beim Vorspulen/Zurückspulen die Lautstärke reduzieren</Control>
+			<Control ID="chkReduceSoundInFastForward">Beim Schnellvorlauf/Zurückspulen die Lautstärke reduzieren</Control>
 			<Control ID="trkVolumeReduction">Reduzierung der Lautstärke (%)</Control>
 			<Control ID="lblVolumeReductionSettings">Einstellungen für die Reduzierung der Lautstärke</Control>
 			<Control ID="chkEnableAudio">Audio aktivieren</Control>
@@ -251,7 +251,7 @@
 			<Control ID="chkHideBgLayer2">Hintergrundebene 2 verbergen</Control>
 			<Control ID="chkHideBgLayer3">Hintergrundebene 3 verbergen</Control>
 			<Control ID="chkHideSprites">Sprites verbergen</Control>
-			<Control ID="chkDisableFrameSkipping">Beim Vorspulen keine Frames überspringen</Control>
+			<Control ID="chkDisableFrameSkipping">Beim Schnellvorlauf keine Frames überspringen</Control>
 
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
@@ -729,7 +729,7 @@
 		<Message ID="CheatsFound">{0} Spiele in der Datenbank</Message>
 		<Message ID="CheatsImported">{0} Cheats importiert für {1}.</Message>
 
-		<Message ID="NsfNextTrack">Nächster Track (Zum Vorspulen die Taste gedrückt halten)</Message>
+		<Message ID="NsfNextTrack">Nächster Track (Zum Schnellvorlauf die Taste gedrückt halten)</Message>
 		<Message ID="NsfUnnamedTrack">&lt;kein Name&gt;</Message>
 		<Message ID="NsfUnknownField">&lt;unbekannt&gt;</Message>
 
@@ -759,8 +759,8 @@
 		<Message ID="ConfirmPowerCycle">Bist du sicher, dass du Aus- und Wiedereinschalten möchtest?</Message>
 		<Message ID="ConfirmExit">Bist du sicher, dass du das Programm beenden möchtest?</Message>
 
-		<Message ID="EmulatorShortcutMappings_FastForward">Vorspulen (Taste gedrückt halten)</Message>
-		<Message ID="EmulatorShortcutMappings_ToggleFastForward">Vorspulen umschalten</Message>
+		<Message ID="EmulatorShortcutMappings_FastForward">Schnellvorlauf (Taste gedrückt halten)</Message>
+		<Message ID="EmulatorShortcutMappings_ToggleFastForward">Schnellvorlauf umschalten</Message>
 		<Message ID="EmulatorShortcutMappings_Rewind">Zurückspulen (Taste gedrückt halten)</Message>
 		<Message ID="EmulatorShortcutMappings_ToggleRewind">Zurückspulen umschalten</Message>
 		<Message ID="EmulatorShortcutMappings_RewindTenSecs">Zurückspulen (10 Sekunden)</Message>
