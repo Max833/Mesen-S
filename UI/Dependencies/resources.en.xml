@@ -513,7 +513,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmRecordAvi" Title="Aufnahme">
+		<Form ID="frmRecordAvi" Title="Aufnahme (Video)">
 			<Control ID="lblAviFile">Speichern unter:</Control>
 			<Control ID="lblCodec">Videocodec:</Control>
 			<Control ID="lblCompressionLevel">Komprimierungsstufe:</Control>
@@ -590,7 +590,7 @@
 			<Control ID="btnOk">BESTÄTIGEN</Control>
 			<Control ID="lblCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmRecordMovie" Title="Aufnahme">
+		<Form ID="frmRecordMovie" Title="Aufnahme (Film)">
 			<Control ID="lblSaveTo">Speichern unter:</Control>
 			<Control ID="lblRecordFrom">Aufnahme starten...</Control>
 			<Control ID="lblMovieInformation">Film-Information (Optional)</Control>
