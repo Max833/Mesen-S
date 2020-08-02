@@ -771,7 +771,7 @@
 		<Message ID="EmulatorShortcutMappings_Reset">Reset</Message>
 		<Message ID="EmulatorShortcutMappings_PowerCycle">Aus- und Wiedereinschalten</Message>
 		<Message ID="EmulatorShortcutMappings_ReloadRom">ROM neu laden</Message>
-		<Message ID="EmulatorShortcutMappings_PowerOff">Ausschalten (Konsole)</Message>
+		<Message ID="EmulatorShortcutMappings_PowerOff">Ausschalten</Message>
 		<Message ID="EmulatorShortcutMappings_Exit">Beenden (Mesen-S)</Message>
 		<Message ID="EmulatorShortcutMappings_TakeScreenshot">Screenshot erstellen</Message>
 		<Message ID="EmulatorShortcutMappings_MoveToNextStateSlot">Nächsten Spielstand-Slot auswählen</Message>
@@ -797,7 +797,7 @@
 		<Message ID="EmulatorShortcutMappings_ToggleFrameCounter">Frame-Zähler umschalten</Message>
 		<Message ID="EmulatorShortcutMappings_ToggleLagCounter">Lag-Zähler umschalten</Message>
 		<Message ID="EmulatorShortcutMappings_ToggleOsd">Bildschirmmeldungen umschalten</Message>
-		<Message ID="EmulatorShortcutMappings_ToggleAlwaysOnTop">Fenster immer im Vordergrund umschalten</Message>
+		<Message ID="EmulatorShortcutMappings_ToggleAlwaysOnTop">Mesen-S immer im Vordergrund anderer Fenster umschalten</Message>
 		<Message ID="EmulatorShortcutMappings_ToggleBackground">Hintergrundebene umschalten</Message>
 		<Message ID="EmulatorShortcutMappings_ToggleSprites">Spriteebene umschalten</Message>
 		<Message ID="EmulatorShortcutMappings_ToggleKeyboardMode">Tastatur-Modus umschalten</Message>
