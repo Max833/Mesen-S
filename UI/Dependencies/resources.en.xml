@@ -508,7 +508,7 @@
 		<Form ID="frmGetKey" Title="Tastenbelegung festlegen...">
 			<Control ID="lblSetKeyMessage">Drücke auf deiner Tastatur oder Controller eine Taste, um eine neue Belegung festzulegen.</Control>
 		</Form>
-		<Form ID="frmPlayerProfile" Title="Profile">
+		<Form ID="frmPlayerProfile" Title="Profil">
 			<Control ID="lblName">Spielername:</Control>
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
