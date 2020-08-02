@@ -775,7 +775,7 @@
 		<Message ID="EmulatorShortcutMappings_Exit">Beenden (Mesen-S)</Message>
 		<Message ID="EmulatorShortcutMappings_TakeScreenshot">Screenshot erstellen</Message>
 		<Message ID="EmulatorShortcutMappings_MoveToNextStateSlot">Nächsten Spielstand-Slot auswählen</Message>
-		<Message ID="EmulatorShortcutMappings_MoveToPreviousStateSlot">Vorherigen Spielstand-Slot auswählen</Message>
+		<Message ID="EmulatorShortcutMappings_MoveToPreviousStateSlot">Vorigen Spielstand-Slot auswählen</Message>
 		<Message ID="EmulatorShortcutMappings_SaveState">Spielstand speichern</Message>
 		<Message ID="EmulatorShortcutMappings_LoadState">Spielstand laden</Message>
 		<Message ID="EmulatorShortcutMappings_ToggleCheats">Cheat-Codes aktivieren/deaktivieren</Message>
