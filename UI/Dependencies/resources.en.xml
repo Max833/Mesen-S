@@ -31,12 +31,12 @@
 			<Control ID="mnuEmuSpeedQuarter">Vierteln (25%)</Control>
 			<Control ID="mnuShowFPS">FPS anzeigen</Control>
 			<Control ID="mnuVideoScale">Bildgröße</Control>
-			<Control ID="mnuScale1x"> 1x</Control>
-			<Control ID="mnuScale2x"> 2x</Control>
-			<Control ID="mnuScale3x"> 3x</Control>
-			<Control ID="mnuScale4x"> 4x</Control>
-			<Control ID="mnuScale5x"> 5x</Control>
-			<Control ID="mnuScale6x"> 6x</Control>
+			<Control ID="mnuScale1x">1x</Control>
+			<Control ID="mnuScale2x">2x</Control>
+			<Control ID="mnuScale3x">3x</Control>
+			<Control ID="mnuScale4x">4x</Control>
+			<Control ID="mnuScale5x">5x</Control>
+			<Control ID="mnuScale6x">6x</Control>
 			<Control ID="mnuFullscreen">Vollbild</Control>
 			<Control ID="mnuVideoFilter">Videofilter</Control>
 			<Control ID="mnuNoneFilter">Keinen Filter</Control>
@@ -112,10 +112,10 @@
 			<Control ID="lblRewinding">Zurückspulen</Control>
 			<Control ID="lblFastForward">Vorspulen</Control>
 		</Form>
-		<Form ID="frmLogWindow" Title="Log Window">
+		<Form ID="frmLogWindow" Title="Protokollfenster">
 			<Control ID="btnClose">Schließen</Control>
 		</Form>
-		<Form ID="frmAudioConfig" Title="Audio Options">
+		<Form ID="frmAudioConfig" Title="Audio">
 			<Control ID="tpgGeneral">Allgemein</Control>
 			<Control ID="tpgAdvanced">Erweitert</Control>
 			<Control ID="chkDisableDynamicSampleRate">Dynamische Abtastrate deaktivieren</Control>
@@ -140,7 +140,7 @@
 			<Control ID="tpgEqualizer">Equalizer</Control>
 			<Control ID="chkEnableEqualizer">Equalizer aktivieren</Control>
 		</Form>
-		<Form ID="frmInputConfig" Title="Input Settings">
+		<Form ID="frmInputConfig" Title="Eingabegeräte">
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 			<Control ID="tpgControllers">Controller</Control>
@@ -182,7 +182,7 @@
 
 			<Control ID="lblKeyBinding">Warnung: Deine derzeitige Controller-Konfiguration enthält Tasten, die mehrfach belegt sind. Falls dies nicht beabsichtigt ist, überprüfe und korrigiere dies.</Control>
 		</Form>
-		<Form ID="frmVideoConfig" Title="Video Options">
+		<Form ID="frmVideoConfig" Title="Video">
 			<Control ID="tpgGeneral">Allgemein</Control>
 			<Control ID="lblVideoScale">Skalierung:</Control>
 			<Control ID="lblVideoFilter">Filter:</Control>
@@ -256,7 +256,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmEmulationConfig" Title="Emulation Settings">
+		<Form ID="frmEmulationConfig" Title="Emulation">
 			<Control ID="tpgGeneral">Allgemein</Control>
 			<Control ID="lblEmuSpeedHint">%  (0 = Maximal-Geschwindigkeit)</Control>
 			<Control ID="lblEmulationSpeed">Emulationsgeschwindigkeit:</Control>
@@ -296,7 +296,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmGameboyConfig" Title="Game Boy Config">
+		<Form ID="frmGameboyConfig" Title="Game Boy">
 			<Control ID="tpgGeneral">Allgemein</Control>
 			<Control ID="lblModel">Modell</Control>
 			<Control ID="chkUseSgb2">Verhalten und Timing des Super Game Boy 2 nachbilden</Control>
@@ -318,7 +318,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmPreferences" Title="Preferences">
+		<Form ID="frmPreferences" Title="Voreinstellungen">
 			<Control ID="tpgGeneral">Allgemein</Control>
 			<Control ID="lblDisplayLanguage">Systemsprache:</Control>
 			<Control ID="chkSingleInstance">Immer nur eine Instanz von Mesen-S erlauben</Control>
@@ -407,21 +407,21 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmServerConfig" Title="Server Configuration">
+		<Form ID="frmServerConfig" Title="Serverkonfiguration">
 			<Control ID="lblPort">Port:</Control>
 			<Control ID="lblServerName">Servername:</Control>
 			<Control ID="lblPassword">Passwort:</Control>
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmClientConfig" Title="Connect...">
+		<Form ID="frmClientConfig" Title="Verbinden...">
 			<Control ID="lblHost">Host:</Control>
 			<Control ID="lblPort">Port:</Control>
 			<Control ID="lblPassword">Passwort:</Control>
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmCheatImport" Title="Import Cheats">
+		<Form ID="frmCheatImport" Title="Cheats importieren">
 			<Control ID="grpImportOptions">Optionen importieren</Control>
 			<Control ID="lblCheatFile">Cheat-Datei:</Control>
 			<Control ID="lblGame">Spiel:</Control>
@@ -430,7 +430,7 @@
 			<Control ID="btnImport">Importieren</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmCheatImport" Title="Import Cheats">
+		<Form ID="frmCheatImport" Title="Cheats importieren">
 			<Control ID="grpImportOptions">Optionen importieren</Control>
 			<Control ID="lblCheatFile">Cheat-Datei:</Control>
 			<Control ID="lblGame">Spiel:</Control>
@@ -439,7 +439,7 @@
 			<Control ID="btnImport">Importieren</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmCheatDbList" Title="Select Game...">
+		<Form ID="frmCheatDbList" Title="Spiel auswählen...">
 			<Control ID="lblSearch">Suchen:</Control>
 			<Control ID="btnOK">Importieren</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
@@ -457,7 +457,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmCheat" Title="Edit Cheat">
+		<Form ID="frmCheat" Title="Cheat bearbeiten">
 			<Control ID="lblDescription">Beschreibung:</Control>
 			<Control ID="grpCode">Code</Control>
 			<Control ID="radGameGenie">Game Genie (z. B. A1B2-C3D4)</Control>
@@ -469,7 +469,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmAbout" Title="About - Mesen-S">
+		<Form ID="frmAbout" Title="Über - Mesen-S">
 			<Control ID="labelProductName">Mesen-S</Control>
 			<Control ID="labelCopyright">© 2020 M. Bibaud (aka Sour)</Control>
 			<Control ID="lblWebsite">Website:</Control>
@@ -489,10 +489,10 @@
 			<Control ID="lblDonate">Du kannst Mesen-S unterstützen, indem du spendest.&#13;Vielen Dank für euren Support!</Control>
 			<Control ID="okButton">&amp;OK</Control>
 		</Form>
-		<Form ID="frmGameConfig" Title="Game Configuration">
+		<Form ID="frmGameConfig" Title="Spielkonfiguration">
 			<Control ID="grpDipSwitches">DIP-Schalter</Control>
 		</Form>
-		<Form ID="frmUpdatePrompt" Title="Mesen-S - Update Available">
+		<Form ID="frmUpdatePrompt" Title="Mesen-S - Update verfügbar">
 			<Control ID="lblLatestVersion">Aktuellste Version:</Control>
 			<Control ID="lblCurrentVersion">Diese Version:</Control>
 			<Control ID="lblChangeLog">Changelog:</Control>
@@ -500,12 +500,12 @@
 			<Control ID="btnUpdate">Update</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmSelectRom" Title="Select Rom...">
+		<Form ID="frmSelectRom" Title="ROM-Datei auswählen...">
 			<Control ID="lblSearch">Suchen:</Control>
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmGetKey" Title="Set key binding...">
+		<Form ID="frmGetKey" Title="Tastenbelegung festlegen...">
 			<Control ID="lblSetKeyMessage">Drücke auf deiner Tastatur oder Controller eine Taste, um eine neue Belegung festzulegen.</Control>
 		</Form>
 		<Form ID="frmPlayerProfile" Title="Profile">
@@ -513,7 +513,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmRecordAvi" Title="Video Recording Options">
+		<Form ID="frmRecordAvi" Title="Aufnahme">
 			<Control ID="lblAviFile">Speichern unter:</Control>
 			<Control ID="lblCodec">Videocodec:</Control>
 			<Control ID="lblCompressionLevel">Komprimierungsstufe:</Control>
@@ -523,7 +523,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmHdPackEditor" Title="HD Pack Builder">
+		<Form ID="frmHdPackEditor" Title="HD-Pack erstellen">
 			<Control ID="grpPreview">CHR-Bank (Vorschau)</Control>
 			<Control ID="lblChrBank">CHR-Bank:</Control>
 			<Control ID="grpOptions">Aufnahme-Einstellungen</Control>
@@ -539,7 +539,7 @@
 			<Control ID="btnStopRecording">Aufnahme stoppen</Control>
 			<Control ID="btnOpenFolder">Speicherordner öffnen</Control>
 		</Form>
-		<Form ID="frmHistoryViewer" Title="History Viewer">
+		<Form ID="frmHistoryViewer" Title="Verlaufsbetrachter">
 			<Control ID="lblVolume">Lautstärke</Control>
 			<Control ID="mnuFile">Datei</Control>
 			<Control ID="mnuImportMovie">Film importieren</Control>
@@ -557,13 +557,13 @@
 			<Control ID="mnuScale5x">5x</Control>
 			<Control ID="mnuScale6x">6x</Control>
 		</Form>
-		<Form ID="frmSelectExportRange" Title="Export specific range...">
+		<Form ID="frmSelectExportRange" Title="Bestimmten Bereich exportieren...">
 			<Control ID="lblStartTime">Startzeit:</Control>
 			<Control ID="lblEndTime">Endzeit:</Control>
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmHelp" Title="Command-line options">
+		<Form ID="frmHelp" Title="Befehlszeile">
 			<Control ID="grpExample">Anwendungsbeispiel</Control>
 			<Control ID="tpgGeneralOptions">Allgemein</Control>
 			<Control ID="tpgVideoOptions">Video-Optionen</Control>
@@ -571,10 +571,10 @@
 			<Control ID="tpgEmulationOptions">Emulation-Optionen</Control>
 			<Control ID="lblExplanation">Mesen-S wird hiermit im Vollbildmodus und der ROM-Datei "Mygame.sfc" gestartet. Es wird außerdem den NTSC-Filter und eine zweifache Skalierung setzen, sowie Overscan-Einstellungen konfigurieren. Der "DoNotSaveSettings"-Befehl wird benutzt, damit verhindert wird, dass die Befehlszeile nicht die Einstellungen von Mesen-S dauerhaft verändert.</Control>
 		</Form>
-		<Form ID="frmCopyFiles" Title="Please wait...">
+		<Form ID="frmCopyFiles" Title="Bitte warten...">
 			<Control ID="lblCopying">Kopieren:</Control>
 		</Form>
-		<Form ID="frmConfigWizard" Title="Mesen-S - Configuration">
+		<Form ID="frmConfigWizard" Title="Mesen-S - Konfiguration">
 			<Control ID="lblMesen">Mesen-S - SNES-Emulator</Control>
 			<Control ID="lblConfigWizard">Konfigurationsassistent</Control>
 			<Control ID="lblInitialSetup">Bitte nehme dir einen Moment Zeit, um die Ersteinrichtung von Mesen-S durchzuführen.</Control>
@@ -590,7 +590,7 @@
 			<Control ID="btnOk">BESTÄTIGEN</Control>
 			<Control ID="lblCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmRecordMovie" Title="Movie Recording Options">
+		<Form ID="frmRecordMovie" Title="Aufnahme">
 			<Control ID="lblSaveTo">Speichern unter:</Control>
 			<Control ID="lblRecordFrom">Aufnahme starten...</Control>
 			<Control ID="lblMovieInformation">Film-Information (Optional)</Control>
@@ -600,7 +600,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmInputBarCode" Title="Input Barcode...">
+		<Form ID="frmInputBarCode" Title="Barcode eingeben...">
 			<Control ID="lblBarcode">Barcode:</Control>
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
