@@ -729,7 +729,7 @@
 		<Message ID="CheatsFound">{0} Spiele in der Datenbank</Message>
 		<Message ID="CheatsImported">{0} Cheats importiert für {1}.</Message>
 
-		<Message ID="NsfNextTrack">Nächster Track (Zum Schnellvorlauf die Taste gedrückt halten)</Message>
+		<Message ID="NsfNextTrack">Nächster Track (Zum Vorspulen die Taste gedrückt halten)</Message>
 		<Message ID="NsfUnnamedTrack">&lt;kein Name&gt;</Message>
 		<Message ID="NsfUnknownField">&lt;unbekannt&gt;</Message>
 
