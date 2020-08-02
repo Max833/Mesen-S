@@ -772,7 +772,7 @@
 		<Message ID="EmulatorShortcutMappings_PowerCycle">Aus- und Wiedereinschalten</Message>
 		<Message ID="EmulatorShortcutMappings_ReloadRom">ROM neu laden</Message>
 		<Message ID="EmulatorShortcutMappings_PowerOff">Ausschalten</Message>
-		<Message ID="EmulatorShortcutMappings_Exit">Beenden (Mesen-S)</Message>
+		<Message ID="EmulatorShortcutMappings_Exit">Mesen-S beenden</Message>
 		<Message ID="EmulatorShortcutMappings_TakeScreenshot">Screenshot erstellen</Message>
 		<Message ID="EmulatorShortcutMappings_MoveToNextStateSlot">Nächsten Spielstand-Slot auswählen</Message>
 		<Message ID="EmulatorShortcutMappings_MoveToPreviousStateSlot">Vorigen Spielstand-Slot auswählen</Message>
