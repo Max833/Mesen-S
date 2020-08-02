@@ -50,7 +50,7 @@ std::unordered_map<string, string> MessageManager::_enResources = {
 	{ "MovieNewerVersion", u8"Filme, die von einer neueren Mesen-S-Version erstellt wurden, können nicht geladen werden. Bitte die aktuellste Version herunterladen." },
 	{ "MovieIncompatibleVersion", u8"Film ist mit dieser Mesen-S-Version nicht kompatibel." },
 	{ "MoviePlaying", u8"Folgender Film wird abgespielt: %1" },
-	{ "MovieRecordingTo", u8"Speicherung erfolgt unter: %1" },
+	{ "MovieRecordingTo", u8"Aufnahme erfolgt unter: %1" },
 	{ "MovieSaved", u8"Film-Datei gespeichert unter: %1" },
 	{ "NetplayVersionMismatch", u8"%1 verwendet nicht die gleiche Mesen-S-Version und wurde deshalb vom Server getrennt." },
 	{ "NetplayNotAllowed", u8"Solange man mit einem Server verbunden ist, ist dies nicht zulässig." },
@@ -70,11 +70,11 @@ std::unordered_map<string, string> MessageManager::_enResources = {
 	{ "ScanlineTimingWarning", u8"PPU-Timing wurde geändert." },
 	{ "ServerStarted", u8"Server gestartet (Port: %1)" },
 	{ "ServerStopped", u8"Server gestoppt" },
-	{ "SoundRecorderStarted", u8"Speicherung erfolgt unter: %1" },
+	{ "SoundRecorderStarted", u8"Aufnahme erfolgt unter: %1" },
 	{ "SoundRecorderStopped", u8"Aufnahme gespeichert unter: %1" },
 	{ "TestFileSavedTo", u8"Test-Datei gespeichert unter: %1" },
 	{ "UnsupportedMapper", u8"Mapper nicht unterstützt (%1), Spiel kann nicht geladen werden." },
-	{ "VideoRecorderStarted", u8"Speicherung erfolgt unter: %1" },
+	{ "VideoRecorderStarted", u8"Aufnahme erfolgt unter: %1" },
 	{ "VideoRecorderStopped", u8"Aufnahme gespeichert unter: %1" },
 };
 
