@@ -197,10 +197,10 @@
 			<Control ID="chkUseHdPacks">HDNes' HD-Packs benutzen</Control>
 			<Control ID="chkUseExclusiveFullscreen">Exklusiven Vollbildmodus benutzen</Control>
 			<Control ID="lblRequestedRefreshRate">Bildwiederholrate:</Control>
-			<Control ID="tpgOverscan">Bildrand (Overscan)</Control>
+			<Control ID="tpgOverscan">Overscan</Control>
 			<Control ID="tpgOverscanGlobal">Allgemein</Control>
 			<Control ID="tpgOverscanGameSpecific">Spielspezifisch</Control>
-			<Control ID="chkEnableGameSpecificOverscan">Spielspezifische Bildrand-Einstellungen aktivieren</Control>
+			<Control ID="chkEnableGameSpecificOverscan">Spielspezifische Overscan-Einstellungen aktivieren</Control>
 			<Control ID="lblLeft">Links</Control>
 			<Control ID="lblTop">Oben</Control>
 			<Control ID="lblBottom">Unten</Control>
@@ -569,7 +569,7 @@
 			<Control ID="tpgVideoOptions">Video-Optionen</Control>
 			<Control ID="tpgAudioOptions">Audio-Optionen</Control>
 			<Control ID="tpgEmulationOptions">Emulation-Optionen</Control>
-			<Control ID="lblExplanation">Mesen-S wird hiermit im Vollbildmodus und der ROM-Datei "Mygame.sfc" gestartet. Es wird außerdem den NTSC-Filter und eine zweifache Skalierung setzen, sowie Bildrand-Einstellungen konfigurieren. Der "DoNotSaveSettings"-Befehl wird benutzt, damit verhindert wird, dass die Befehlszeile nicht die Einstellungen von Mesen-S dauerhaft verändert.</Control>
+			<Control ID="lblExplanation">Mesen-S wird hiermit im Vollbildmodus und der ROM-Datei "Mygame.sfc" gestartet. Es wird außerdem den NTSC-Filter und eine zweifache Skalierung setzen, sowie Overscan-Einstellungen konfigurieren. Der "DoNotSaveSettings"-Befehl wird benutzt, damit verhindert wird, dass die Befehlszeile nicht die Einstellungen von Mesen-S dauerhaft verändert.</Control>
 		</Form>
 		<Form ID="frmCopyFiles" Title="Please wait...">
 			<Control ID="lblCopying">Kopieren:</Control>
