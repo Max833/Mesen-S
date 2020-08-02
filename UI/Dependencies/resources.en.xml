@@ -250,7 +250,7 @@
 			<Control ID="chkHideBgLayer1">Hintergrundebene 1 verbergen</Control>
 			<Control ID="chkHideBgLayer2">Hintergrundebene 2 verbergen</Control>
 			<Control ID="chkHideBgLayer3">Hintergrundebene 3 verbergen</Control>
-			<Control ID="chkHideSprites">Sprites verbergen</Control>
+			<Control ID="chkHideSprites">Spriteebene verbergen</Control>
 			<Control ID="chkDisableFrameSkipping">Beim Schnellvorlauf keine Frames überspringen</Control>
 
 			<Control ID="btnOK">OK</Control>
