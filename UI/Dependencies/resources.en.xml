@@ -310,7 +310,7 @@
 
 			<Control ID="lblLcdSettings">LCD-Einstellungen</Control>
 			<Control ID="chkGbBlendFrames">LCD-Frameüberblendung aktivieren</Control>
-			<Control ID="chkGbcAdjustColors">LCD-Farbemulation des GBC aktivieren</Control>
+			<Control ID="chkGbcAdjustColors">LCD-Farbemulation des Game Boy Color aktivieren</Control>
 
 			<Control ID="tpgAudio">Audio</Control>
 			<Control ID="grpVolume">Lautstärke</Control>
