@@ -399,7 +399,12 @@
 			<Control ID="lblGameSelectionScreenSettings">Spielauswahlfenster-Einstellungen</Control>
 			<Control ID="chkGameSelectionScreenResetGame">Spiel regulär durch Einschaltung starten, statt direkt von der letzten Spielsitzung</Control>
 			<Control ID="chkDisableGameSelectionScreen">Spielauswahlfenster deaktivieren</Control>
-
+			<Control ID="lblDebugInfo">test</Control>
+			<Control ID="DebugInfo">Fenster-test2</Control>
+			<Control ID="chkDebugInfo">test3</Control>
+			<Control ID="grpDebugInfo">test4</Control>
+			<Control ID="tpgDebugInfo">test5</Control>
+			<Control ID="colDebugInfo">test6</Control>
 			<Control ID="chkDisableGameDatabase">Integrierte Spieldatenbank deaktivieren</Control>
 			<Control ID="chkDisableHighResolutionTimer">High-Resolution-Timer deaktivieren</Control>
 			<Control ID="chkDisableOsd">Bildschirmmeldungen deaktivieren</Control>
