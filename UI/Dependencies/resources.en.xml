@@ -44,9 +44,9 @@
 			<Control ID="mnuBilinearInterpolation">Bilineare Filterung benutzen</Control>
 			<Control ID="mnuBlendHighResolutionModes">High-Resolution-Modus (HiRes) einblenden</Control>
 			<Control ID="mnuAudioConfig">Audio</Control>
-			<Control ID="mnuInput">Eingabegeräte1</Control>
-			<Control ID="frmInput">Eingabegeräte2</Control>
-			<Control ID="frmInputConfig">Eingabegeräte3</Control>
+			<Control ID="mnuInput">test</Control>
+			<Control ID="frmInput">Eingabegerfte2</Control>
+			<Control ID="frmInputConfig">Eingabegeste3</Control>
 			<Control ID="mnuRegion">Region</Control>
 			<Control ID="mnuRegionAuto">Automatisch</Control>
 			<Control ID="mnuRegionNtsc">NTSC</Control>
