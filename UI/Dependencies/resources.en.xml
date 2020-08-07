@@ -277,7 +277,7 @@
 
 			<Control ID="tpgOverclocking">Übertaktung</Control>
 			<Control ID="grpOverclocking">Übertaktung</Control>
-			<Control ID="lblOverclockHint">Durch das Übertakten ist es möglich, dass Slowdowns in Spielen reduziert oder entfernt werden, allerdings kann es auch Probleme verursachen. Der kompatibelste Methode der Übertaktung ist den "Zusätzliche Scanlines vor NMI"-Wert um einige hundert Zeilen zu erhöhen (z. B. 300+). Falls das Spiel Probleme bereitet, den Wert senken oder stattdessen den "Zusätzliche Scanlines nach NMI"-Wert benutzen.</Control>
+			<Control ID="lblOverclockHint">Durch das Übertakten ist es möglich, dass Slowdowns in Spielen reduziert oder entfernt werden, allerdings kann es auch Probleme verursachen. Zum Übertakten den "Zusätzliche Scanlines vor NMI"-Wert um einige hundert Zeilen erhöhen (z. B. 300+). Falls das Spiel Probleme bereitet, den Wert senken oder stattdessen den "Zusätzliche Scanlines nach NMI"-Wert benutzen.</Control>
 			<Control ID="lblClockRate">Taktfrequenz-Multiplikator:</Control>
 			<Control ID="lblClockRatePercent">% (Standard: 100%)</Control>
 
