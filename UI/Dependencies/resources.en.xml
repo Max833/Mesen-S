@@ -264,7 +264,7 @@
 			<Control ID="lblTurboSpeed">Schnellvorlauf-Geschwindigkeit:</Control>
 			<Control ID="lblRewindSpeedHint">%  (0 = Maximal-Geschwindigkeit)</Control>
 			<Control ID="lblRewindSpeed">Zurückspul-Geschwindigkeit:</Control>
-			<Control ID="lblRunAhead">Run Ahead:</Control>
+			<Control ID="lblRunAhead">Runahead:</Control>
 			<Control ID="lblRunAheadFrames">Frames (senkt Input-Lag, erhöht CPU-Auslastung)</Control>
 			
 			<Control ID="tpgAdvanced">Erweitert</Control>
