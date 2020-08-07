@@ -39,7 +39,7 @@ static vector<KeyDefinition> _keyDefinitions = {
 	{ "VK_NEXT", 0x22, "Numpad 3", "Page Down" },
 	{ "VK_END", 0x23, "Numpad 1", "End" },
 	{ "VK_HOME", 0x24, "Numpad 7", "Home" },
-	{ "VK_LEFT", 0x25, "Numpad 4", "Linke Pfeiltaste" },
+	{ "VK_LEFT", 0x25, "Numpad 4", "Left Arrow" },
 	{ "VK_UP", 0x26, "Numpad 8", "Up Arrow" },
 	{ "VK_RIGHT", 0x27, "Numpad 6", "Right Arrow" },
 	{ "VK_DOWN", 0x28, "Numpad 2", "Down Arrow" },
