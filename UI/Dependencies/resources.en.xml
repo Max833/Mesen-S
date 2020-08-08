@@ -690,7 +690,7 @@
 		<Message ID="ClearHistory">Verlauf leeren</Message>
 		<Message ID="LastFolderUsed">Zuletzt geöffneter Ordner</Message>
 
-		<Message ID="FirmwareNotFound">Dieses Spiel benötigt die Firmware-Datei für den {0}-Chip.&#xA;&#xA;  Dateiname: {1}&#xA;  Größe: {2} bytes&#xA;&#xA;Möchtest du sie auswählen?</Message>
+		<Message ID="FirmwareNotFound">Zur korrekten Ausführung dieses Spiels ist die Firmware-Datei für den {0}-Chip erforderlich.&#xA;&#xA;  Dateiname: {1}&#xA;  Größe: {2} bytes&#xA;&#xA;Möchtest du sie auswählen?</Message>
 		<Message ID="FirmwareMismatch">Die ausgewählte Datei stimmt nicht mit der Firmware überein, die für den {0}-Chip benötigt wird.&#xA;&#xA;SHA-256 der benötigten Firmware:&#xA;{1}&#xA;&#xA;SHA-256 dieser Datei:&#xA;{2}&#xA;&#xA;Möchtest du diese Datei trotzdem verwenden?</Message>
 
 		<Message ID="MouseModeEnabled">Mausmodus aktiviert - Drücke ESC oder Pause, damit der Mauszeiger freigegeben wird.</Message>
