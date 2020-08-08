@@ -369,7 +369,7 @@
 			<Control ID="chkMoviesOverride">Mesen-S-Filme:</Control>
 
 			<Control ID="tpgAdvanced">Erweitert</Control>
-			<Control ID="chkShowFullPathInRecents">Kompletten Dateipfad in der "Zuletzt verwendete Dateien"-Liste anzeigen</Control>
+			<Control ID="chkShowFullPathInRecents">Vollständigen Dateipfad in der "Zuletzt verwendete Dateien"-Liste anzeigen</Control>
 			<Control ID="chkShowFrameCounter">Frame-Zähler anzeigen</Control>
 			<Control ID="chkShowGameTimer">Spielzeitmesser anzeigen</Control>
 			<Control ID="chkShowVsConfigOnLoad">Spielkonfigurationsdialog anzeigen, wenn VS-System-Spiele geladen werden</Control>
@@ -393,7 +393,7 @@
 
 			<Control ID="lblUiDisplaySettings">Bildschirm-Einstellungen</Control>
 			<Control ID="lblWindowSettings">Fenster-Einstellungen</Control>
-			<Control ID="chkDisableMouseResize">Verhindern, dass sich die Größe des Hauptfensters mit der Maus ändern lässt</Control>
+			<Control ID="chkDisableMouseResize">Verhindern, dass sich die Größe des Hauptfensters mit der Maus verändern lässt</Control>
 			<Control ID="lblGameSelectionScreenSettings">Spielauswahlfenster-Einstellungen</Control>
 			<Control ID="chkGameSelectionScreenResetGame">Spiel regulär durch Einschaltung starten und nicht direkt von der letzten Spielsitzung</Control>
 			<Control ID="chkDisableGameSelectionScreen">Spielauswahlfenster deaktivieren</Control>
@@ -484,7 +484,7 @@
 			<Control ID="lblAudio">Audio:</Control>
 			<Control ID="lblEmulation">Emulation:</Control>
 			<Control ID="lblCheats">Cheats:</Control>
-			<Control ID="lblSpecialThanks">Vielen Dank an allen, die zum Projekt beigetragen haben!&#13;(Spenden, Fehlermeldungen, Testen, Teilen von Informationen etc.)</Control>
+			<Control ID="lblSpecialThanks">Und vielen Dank an alle, die zum Projekt beigetragen haben!&#13;(Spenden, Fehlermeldungen, Testen, Teilen von Informationen etc.)</Control>
 
 			<Control ID="lblDonate">Du kannst Mesen-S unterstützen, indem du spendest.&#13;Vielen Dank für euren Support!</Control>
 			<Control ID="okButton">&amp;OK</Control>
@@ -506,7 +506,7 @@
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
 		<Form ID="frmGetKey" Title="Tastenbelegung festlegen...">
-			<Control ID="lblSetKeyMessage">Drücke eine Taste, um eine neue Belegung festzulegen.</Control>
+			<Control ID="lblSetKeyMessage">Drücke eine beliebige Taste, um eine neue Belegung festzulegen.</Control>
 		</Form>
 		<Form ID="frmPlayerProfile" Title="Profil">
 			<Control ID="lblName">Spielername:</Control>
@@ -529,10 +529,10 @@
 			<Control ID="grpOptions">Aufnahme-Einstellungen</Control>
 			<Control ID="lblBankSize">CHR-Bank-Größe:</Control>
 			<Control ID="lblScale">Skalierung/Filter:</Control>
-			<Control ID="chkSortByFrequency">Seiten nach Verwendungshäufigkeit sortieren</Control>
-			<Control ID="chkLargeSprites">8x16-Sprite-Anzeigesmodus benutzen</Control>
-			<Control ID="chkGroupBlankTiles">Blank-Tiles gruppieren</Control>
-			<Control ID="chkIgnoreOverscan">Tiles am Rand des Bildschirms ignorieren (Overscan)</Control>
+			<Control ID="chkSortByFrequency">Seiten nach Nutzungshäufigkeit sortieren</Control>
+			<Control ID="chkLargeSprites">8x16-Sprite-Anzeigemodus benutzen</Control>
+			<Control ID="chkGroupBlankTiles">Leere Tiles gruppieren</Control>
+			<Control ID="chkIgnoreOverscan">Tiles an den Rändern des Bildschirms ignorieren (Overscan)</Control>
 			<Control ID="lblFolder">Speicherordner:</Control>
 			<Control ID="btnSelectFolder">Durchsuchen...</Control>
 			<Control ID="btnStartRecording">Aufnahme starten</Control>
@@ -569,7 +569,7 @@
 			<Control ID="tpgVideoOptions">Video</Control>
 			<Control ID="tpgAudioOptions">Audio</Control>
 			<Control ID="tpgEmulationOptions">Emulation</Control>
-			<Control ID="lblExplanation">Mesen-S wird hiermit im Vollbildmodus und der ROM-Datei "Mygame.sfc" gestartet. Außerdem wird der NTSC-Filter und eine zweifache Skalierung angewendet und die Overscan-Einstellungen konfiguriert. Der "DoNotSaveSettings"-Befehl wird benutzt, damit verhindert wird, dass die Befehlszeile die Einstellungen von Mesen-S dauerhaft verändert.</Control>
+			<Control ID="lblExplanation">Mesen-S wird hiermit im Vollbildmodus und der ROM-Datei "Mygame.sfc" gestartet. Außerdem wird der NTSC-Filter verwendet, eine zweifache Skalierung eingestellt und die Overscan-Einstellungen konfiguriert. Der "DoNotSaveSettings"-Befehl wird benutzt, damit verhindert wird, dass die Befehlszeile die Einstellungen von Mesen-S dauerhaft verändert.</Control>
 		</Form>
 		<Form ID="frmCopyFiles" Title="Bitte warten...">
 			<Control ID="lblCopying">Kopieren:</Control>
@@ -743,12 +743,12 @@
 		<Message ID="PatchAndReset">Das Spiel patchen und neu starten?</Message>
 		<Message ID="SelectRomIps">Bitte eine ROM-Datei auswählen, die mit der IPS/UPS/BPS-Patchdatei übereinstimmt.</Message>
 		<Message ID="UnableToDownload">Datei konnte nicht geladen werden. Bitte die Internetverbindung überprüfen und erneut versuchen.&#xA;&#xA;Details:&#xA;{0}</Message>
-		<Message ID="UnableToStartMissingDependencies">Mesen-S konnte nicht gestartet werden, da MesenSCore.dll aufgrund von fehlenden Abhängigkeiten nicht geladen werden konnte.</Message>
-		<Message ID="UnableToStartMissingFiles">Mesen-S konnte nicht gestartet werden, da Dateien fehlen.&#xA;&#xA;Fehler: MesenSCore.dll ist nicht vorhanden.</Message>
+		<Message ID="UnableToStartMissingDependencies">Mesen-S konnte nicht gestartet werden, da es aufgrund fehlender Abhängigkeiten nicht in der Lage war, MesenSCore.dll zu laden.</Message>
+		<Message ID="UnableToStartMissingFiles">Mesen konnte aufgrund fehlender Dateien nicht starten.&#xA;&#xA;Fehler: MesenSCore.dll ist nicht vorhanden.</Message>
 		<Message ID="UnexpectedError">Ein unerwarteter Fehler ist aufgetreten.&#xA;&#xA;Details zum Fehler:&#xA;{0}</Message>
 		<Message ID="UpdateDownloadFailed">Download fehlgeschlagen. Die Datei scheint beschädigt zu sein. Bitte die aktuellste Version von der Mesen-Website manuell herunterladen.</Message>
 		<Message ID="UpgradeSuccess">Upgrade erfolgreich abgeschlossen.</Message>
-		<Message ID="UpdaterNotFound">Der Update-Prozess konnte nicht gestartet werden, da Dateien fehlen.</Message>
+		<Message ID="UpdaterNotFound">Der Update-Prozess konnte aufgrund fehlender Dateien nicht gestartet werden.</Message>
 		<Message ID="Net45NotFound">Microsoft .NET Framework 4.5 konnte nicht gefunden werden. Bitte die aktuellste .NET-Framework-Version von der Microsoft-Website herunterladen und erneut versuchen.</Message>
 
 		<Message ID="InvalidCheatFile">Die ausgewählte Datei ({0}) ist keine gültige Cheat-Datei.</Message>
